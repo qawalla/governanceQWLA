@@ -7,4 +7,4 @@ For more info about the Qawalla project please join our Discord - https://discor
 
 More to come soon... 
 
-Read more about QWLA Governance here - https://qwla.meduim.com 
+Read more about QWLA Governance here - https://qwla.medium.com 
