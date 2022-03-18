@@ -1,5 +1,7 @@
 // SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts v4.4.1 (governance/extensions/GovernorVotesComp.sol)
+// QWLA Governance v0.01
+// APLHA
 
 pragma solidity ^0.8.0;
 
