@@ -68,7 +68,7 @@ abstract contract Governor is Context, ERC165, EIP712, IGovernor {
             bytes32 msgDataHash = keccak256(_msgData());
             // loop until poping the expected operation - throw if deque is empty (operation not authorized)
             while (_governanceCall.popFront() != msgDataHash) {}
-        }
+        } 
         _;
     }
 
@@ -100,7 +100,7 @@ abstract contract Governor is Context, ERC165, EIP712, IGovernor {
                 this.getVotesWithParams.selector) ||
             interfaceId == type(IGovernor).interfaceId ||
             super.supportsInterface(interfaceId);
-    }
+    } 
 
     /**
      * @dev See {IGovernor-name}.
