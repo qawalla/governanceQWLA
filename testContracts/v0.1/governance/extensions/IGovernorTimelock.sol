@@ -3,6 +3,8 @@
 // QWLA Governance v0.01
 // APLHA
 
+//Origin of vote 
+
 pragma solidity ^0.8.0;
 
 import "../IGovernor.sol";
