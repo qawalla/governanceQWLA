@@ -62,6 +62,9 @@ abstract contract Governor is Context, ERC165, EIP712, IGovernor {
      * for example, additional timelock proposers are not able to change governance parameters without going through the
      * governance protocol (since v4.6).
      */
+
+     /** All votes shall be weighted **/
+
     modifier onlyGovernance() {
         require(_msgSender() == _executor(), "Governor: onlyGovernance");
         if (_executor() != address(this)) {
